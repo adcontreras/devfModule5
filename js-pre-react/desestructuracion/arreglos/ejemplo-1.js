@@ -1,0 +1,9 @@
+// LA DESESTRUCTURACION DE ARREGLOS EN JS, ES UNA CARACTERISTICA QUE TE PERMITE EXTRAER VALORES DE UN ARREGLO Y ASIGNARLOS A VARIABLES/CONSTANTES INDIVIDUALES DE UNA MANERA MAS CONVENIENTE
+
+// ASIGNACION DE VALORES A VARIABLES INDIVIDUALES:
+const arreglo = [1,2,3]
+
+// DESESTRUCTURACION crear una variable a la que le voy a asignar lo que se va a extraer
+let [primerValor, segundoValor, tercerValor ]= arreglo
+
+console.log(segundoValor);

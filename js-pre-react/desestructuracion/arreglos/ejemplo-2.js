@@ -1,0 +1,8 @@
+// PARA DESTRUCTURAR HAY QUE ASIGNAR EL ELEMENTO A UNA VARIABLE
+
+// OMISION DE VALORES NO DESEADOS
+const arreglo = [1,2,3,4,5]
+
+// DESTRUCTURACION CON OMISION DE VALORES NO DESEADOS
+const [primerValor, segundoValor, , , quintoValor] = arreglo
+
